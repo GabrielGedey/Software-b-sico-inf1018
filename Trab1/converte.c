@@ -42,7 +42,6 @@ int utf2varint(FILE *arq_entrada, FILE *arq_saida)
       carac[0] = carac[0] & 0x0F;
       carac[0] = carac[0] | 0x80;
       fwrite(carac, 1, 2, arq_saida);
-      return;
       
     }
     else
