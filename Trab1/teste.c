@@ -5,7 +5,7 @@
 int main(void)
 {
   FILE* arq_in;
-  arq_in = fopen("utf8_1", "rb");
+  arq_in = fopen("utf8_peq", "rb");
   if (arq_in == NULL)
   {
     printf("ERRO! O arquivo não foi aberto!\n");
